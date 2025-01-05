@@ -1,0 +1,110 @@
+# Core AI and ML requirements
+numpy>=1.20.0
+pandas>=1.3.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+torch>=2.0.0  # PyTorch instead of pytorch
+torchvision>=0.15.0
+torchaudio>=2.0.0
+tensorflow>=2.10.0
+mlx>=0.0.1  # Apple MLX for accelerated ML on Apple Silicon
+llm-mlx>=0.0.1  # LLM implementations optimized for MLX
+mlx-image>=0.0.1  # Image models optimized for MLX
+
+# Foundation models and APIs
+openai>=1.0.0  # OpenAI API client
+langchain>=0.0.1  # Framework for LLM applications
+transformers>=4.30.0  # Hugging Face Transformers
+datasets>=2.10.0  # Hugging Face Datasets
+diffusers>=0.15.0  # Diffusion models
+accelerate>=0.20.0  # Hugging Face Accelerate for distributed training
+sentence-transformers>=2.2.0  # Sentence embeddings
+
+# Satellite imaging and geospatial
+sentinelhub>=3.4.0
+rasterio>=1.2.0
+geopandas>=0.9.0
+shapely>=1.7.0
+pyproj>=3.1.0
+pillow>=9.0.0
+opencv-python>=4.5.0
+geopy>=2.2.0
+
+# Edge computing and IoT
+adafruit-circuitpython-ads1x15>=2.2.0
+gpiozero>=1.6.0
+RPi.GPIO>=0.7.0
+busio>=1.0.0
+board>=1.0.0
+paho-mqtt>=2.0.0  # MQTT client for IoT communication
+tinyml>=0.1.0  # TinyML for edge devices
+
+# Drone control
+pymavlink>=2.4.0
+dronekit>=2.9.0
+djitellopy>=2.4.0  # DJI Tello drone SDK
+
+# API and web backend
+fastapi>=0.95.0
+uvicorn>=0.20.0
+pydantic>=2.0.0
+python-multipart>=0.0.5
+aiofiles>=0.7.0
+graphql-core>=3.2.0
+strawberry-graphql>=0.150.0
+sqlalchemy>=2.0.0
+alembic>=1.10.0
+asyncpg>=0.27.0
+redis>=4.5.0
+
+# Frontend development tools
+nodejs>=18.0.0
+react>=18.0.0
+typescript>=4.9.0
+d3>=7.0.0
+
+# Database tools
+datasette>=0.63.0  # Tool for exploring and publishing data
+sqlite-utils>=3.30  # SQLite utilities
+timescaledb-python>=0.5.0  # TimescaleDB adapter for time-series data
+psycopg2-binary>=2.9.0  # PostgreSQL adapter
+postgis>=1.0.0  # PostGIS for geographical data
+
+# DevOps and Infrastructure
+docker>=6.0.0
+kubernetes>=26.1.0
+helm>=3.0.0
+terraform>=1.4.0
+
+# Testing and quality assurance
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-asyncio>=0.20.0
+pytest-mock>=3.10.0
+black>=23.0.0  # Code formatter
+flake8>=6.0.0  # Linter
+mypy>=1.0.0  # Type checker
+bandit>=1.7.0  # Security linter
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0
+mkdocs>=1.4.0
+mkdocs-material>=9.0.0
+jupyter>=1.0.0
+nbconvert>=7.0.0
+
+# Data visualization and dashboards
+plotly>=5.13.0
+dash>=2.9.0
+streamlit>=1.20.0
+gradio>=3.20.0
+
+# Utilities
+tqdm>=4.65.0  # Progress bars
+tenacity>=8.2.0  # Retry logic
+loguru>=0.6.0  # Logging
+click>=8.1.0  # Command-line interfaces
+python-dotenv>=1.0.0  # Environment variables 
+# Updated in commit 8 - 2025-04-04 17:33:39
