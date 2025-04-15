@@ -1,0 +1,44 @@
+# Core requirements
+numpy>=1.20.0
+pandas>=1.3.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+scikit-learn>=0.24.0
+pytorch==1.10.0
+tensorflow>=2.5.0
+mlx>=0.1.0
+mlx-image>=0.1.0
+
+# Satellite imaging
+sentinelhub>=3.4.0
+rasterio>=1.2.0
+geopandas>=0.9.0
+shapely>=1.7.0
+pyproj>=3.1.0
+
+# Edge computing
+adafruit-circuitpython-ads1x15>=2.2.0
+gpiozero>=1.6.0
+RPi.GPIO>=0.7.0
+busio>=1.0.0
+board>=1.0.0
+
+# Drone control
+pymavlink>=2.4.0
+dronekit>=2.9.0
+
+# API and web
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0
+python-multipart>=0.0.5
+aiofiles>=0.7.0
+
+# Testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+mock>=4.0.0
+
+# Documentation
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0 
